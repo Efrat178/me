@@ -5,7 +5,7 @@ Ultimate SMS Bomber - Simple 3 API Edition (Slow & Controlled)
 Only 3 APIs: BTCL MyBTCL, BTCL PhoneBill, Bioscope Plus
 Each API sends 5 requests one by one with + phone format
 Termux Compatible & Anti-Reverse Engineering
-Created by: Minhaz Uddin 
+Created by: TG AKASH
 """
 
 import base64
@@ -123,7 +123,7 @@ def _print_banner():
         f"{_c['y']}└─ System:    {_c['w']}{device_info['system']} {device_info['release']}{_c['e']}",
         f"\n{_c['c']}{'=' * 80}",
         f"{_c['g']}CTRL+C: Stop  {_c['y']}CTRL+Z: Pause/Resume{_c['c']}",
-        f"{_c['p']}Created by: {_c['w']}@tgakash{_c['c']}",
+        f"{_c['p']}Created by: {_c['w']}@tgakash90{_c['c']}",
         f"{'=' * 80}{_c['e']}"
     ]
     
@@ -1708,4 +1708,5 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n{_c['r']}💥 STARTUP ERROR: {e}{_c['e']}")
         print(f"{_c['y']}Please check your Python installation and dependencies{_c['e']}")
+
         
